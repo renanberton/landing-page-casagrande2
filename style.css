@@ -140,6 +140,10 @@ body {
     font-size: 2.8rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    color: var(--light);
+}
+
+.problem-solution h2 {
     color: var(--dark);
 }
 
@@ -162,7 +166,7 @@ body {
     align-items: center;
     gap: 20px;
     padding: 30px;
-    background: var(--light);
+    background: var(--primary);
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
     border: 2px solid var(--primary);    
@@ -319,7 +323,7 @@ body {
 /* MODULES */
 .modules {
     padding: 100px 0;
-    background: var(--light);
+    background: var(--dark);
 }
 
 .modules-grid {
@@ -404,7 +408,7 @@ body {
 
 .bonus-header h3 {
     font-size: 1.8rem;
-    color: var(--dark);
+    color: var(--light);
     margin: 0 auto;
     font-weight: 700;
 }
@@ -520,16 +524,14 @@ body {
 .includes {
     text-align: center;
     margin-bottom: 2.5rem;
-    background: var(--primary-light);
+    background: var(--dark);
     padding: 25px;
     border-radius: 12px;
-    border-left: 5px solid var(--primary);
-    border-right: 5px solid var(--primary);
 }
 
 .includes h4 {
     margin-bottom: 1.2rem;
-    color: var(--dark);
+    color: var(--light);
     font-size: 1.3rem;
     font-weight: 700;
 }
@@ -540,28 +542,29 @@ body {
 
 .includes li {
     padding: 10px 0;
-    border-bottom: 1px solid rgba(233, 154, 0, 0.2);
+    border-bottom: 1px solid var(--light);
     font-size: 1.1rem;
     font-weight: 500;
+    color: var(--light);
 }
 
 .guarantee {
     padding: 25px;
     border-radius: 12px;
     margin-bottom: 2.5rem;
-    border-left: 5px solid var(--primary);
-    border-right: 5px solid var(--primary);
+    border: 2px solid var(--light);
+    background: var(--dark);
 }
 
 .guarantee h4 {
-    color: var(--primary);
+    color: var(--light);
     margin-bottom: 0.8rem;
     font-size: 1.3rem;
     text-align: center;
 }
 
 .guarantee p {
-    color: var(--primary);
+    color: var(--light);
     margin: 0;
     font-size: 1.1rem;
     text-align: center;
@@ -781,7 +784,7 @@ body {
 .problem-icon {
     font-size: 2rem;
     font-weight: bold;
-    color: var(--primary);
+    color: var(--dark);
 }
 
 /* BONUS SECTION IN MODULES */
@@ -801,6 +804,10 @@ body {
     color: var(--primary);
     margin-bottom: 1rem;
     font-size: 1.4rem;
+}
+
+.bonus-item p {
+    color: var(--light);
 }
 
 .bonus-warning {
