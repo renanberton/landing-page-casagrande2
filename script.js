@@ -39,3 +39,32 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Inicia quando a página carregar
 document.addEventListener('DOMContentLoaded', startCountdown);
+
+// FAQ Accordion - Versão Simplificada
+document.addEventListener('DOMContentLoaded', function() {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+    
+    accordionHeaders.forEach(header => {
+        header.addEventListener('click', function() {
+            const accordionItem = this.parentElement;
+            const accordionContent = this.nextElementSibling;
+            
+            // Fecha todos os outros
+            document.querySelectorAll('.accordion-item').forEach(item => {
+                if (item !== accordionItem) {
+                    item.classList.remove('active');
+                    item.querySelector('.accordion-content').style.maxHeight = null;
+                }
+            });
+            
+            // Alterna o atual
+            accordionItem.classList.toggle('active');
+            
+            if (accordionItem.classList.contains('active')) {
+                accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+            } else {
+                accordionContent.style.maxHeight = null;
+            }
+        });
+    });
+});
