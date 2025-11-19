@@ -99,9 +99,10 @@ body {
 }
 
 .proof-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -688,6 +689,19 @@ body {
     .container {
         padding: 0 15px;
     }
+
+    .social-proof .container {
+        width: 90%;
+    }
+
+    .proof-content h2 {
+        font-size: 32px !important;
+    }
+
+    .proof-text, .proof-final {
+        text-align: justify !important;
+        width: 100%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -722,10 +736,16 @@ body {
     text-align: center;
 }
 
+.social-proof .container {
+    background: var(--light);
+    padding: 50px 0;
+    border-radius: 12px;
+}
+
 .proof-content h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: var(--light);
+    color: var(--dark);
 }
 
 .proof-text {
@@ -733,12 +753,18 @@ body {
     margin-bottom: 1.5rem;
     line-height: 1.7;
     text-align: center;
+    color: var(--dark);
+    width: 80%;
+    margin: 0 auto;
 }
 
 .proof-final {
     font-size: 1.3rem;
     margin: 2rem 0;
     text-align: center;
+    color: var(--primary);
+    width: 80%;
+    margin: 0 auto;
 }
 
 .media-placeholder {
@@ -753,11 +779,17 @@ body {
 .oferta-dia {
     background: var(--primary);
     color: var(--dark);
-    padding: 25px;
     border-radius: 12px;
-    margin: 2rem 0;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.3rem;    
+    width: 90%;
+    height: 80px;
+    max-width: 750px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .proof-content .cta-button {
