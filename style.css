@@ -103,6 +103,18 @@ body {
     text-align: center;
 }
 
+.proof-grid .module-card {
+    width: 250px;
+    background-color: var(--gray-dark);
+    padding: 0;
+}
+
+.proof-grid .module-card .module-image {
+    min-height: 250px;
+    width: 250px;
+    height: 250px;
+}
+
 .proof-card {
     padding: 40px 20px;
     background: var(--dark-light);
@@ -750,6 +762,11 @@ body {
     color: var(--dark);
 }
 
+.proof-grid .modules-grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 0;
+}
+
 .proof-text {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
@@ -947,6 +964,10 @@ body {
     
     .ancoragem {
         padding: 30px 20px;
+    }
+
+    .proof-grid .modules-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
 
