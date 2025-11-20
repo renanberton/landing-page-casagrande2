@@ -38,7 +38,7 @@ body {
 .hero {
     background: url("./assets/imgs/prancheta.png");
     color: var(--light);
-    padding: 120px 0;
+    padding: 120px 0 80px 0;
     text-align: center;
     position: relative;
 }
@@ -46,7 +46,6 @@ body {
 .hero-content h1 {
     font-size: 3.5rem;
     font-weight: 900;
-    margin-bottom: 1.5rem;
     line-height: 1.2;
 }
 
@@ -56,12 +55,10 @@ body {
 
 .hero-subtitle {
     font-size: 1.4rem;
-    margin-bottom: 2.5rem;
+    margin: 2.5rem auto;
     opacity: 0.9;
     font-weight: 300;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 800px;
 }
 
 /* BUTTONS */
@@ -642,6 +639,7 @@ body {
     
     .hero-subtitle {
         font-size: 1.2rem;
+        text-align: justify;
     }
     
     .proof-grid {
