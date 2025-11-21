@@ -257,8 +257,8 @@ body {
 }
 
 .problem-item p {
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 1.6rem;
+    font-weight: 400;
     margin: 0;
     color: var(--dark);
 }
@@ -613,15 +613,16 @@ body {
 }
 
 .old-price {
-    color: var(--gray-dark);
-    text-decoration: line-through;
+    color: var(--primary);    
     margin-bottom: 8px;
     font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .total-old {
     margin-top: 20px;
     padding-top: 20px;
+    text-decoration: line-through;
     border-top: 1px solid var(--border);
     color: var(--dark);
     font-size: 1.2rem;
@@ -844,6 +845,14 @@ body {
     
     .problem-grid {
         grid-template-columns: 1fr;
+    }
+
+    .problem-item {
+        text-align: center;
+    }
+
+    .problem-icon {
+        display: none;
     }
     
     .authority .section-header h2 {
