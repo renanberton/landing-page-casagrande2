@@ -288,7 +288,7 @@ body {
     font-size: 1.3rem;
     margin: 0;
     color: var(--dark);
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* AUTHORITY SECTION */
@@ -593,7 +593,7 @@ body {
 /* ANCORAGEM */
 .ancoragem {
     background: var(--gray);
-    padding: 40px;
+    padding: 20px;
     border-radius: 15px;
     margin: 40px 0;
     text-align: center;
@@ -608,7 +608,6 @@ body {
 
 .price-comparison {
     margin-bottom: 2.5rem;
-    padding-bottom: 2.5rem;
     border-bottom: 2px solid var(--border);
 }
 
@@ -630,6 +629,10 @@ body {
 
 .new-price {
     margin-bottom: 2.5rem;
+}
+
+.new-price a {
+    margin: 30px 0 10px 0;
 }
 
 .price-main {
@@ -678,15 +681,19 @@ body {
     margin-bottom: 2.5rem;
     background: var(--dark);
     padding: 25px;
-    border-radius: 12px;
+    border-radius: 12px;    
+    margin: 50px 0;
+    padding: 20px;
 }
 
 .includes h4 {
-    margin-bottom: 1.2rem;
     color: var(--light);
-    font-size: 1.3rem;
+    margin: 20px 0;
+    font-size: 1.5rem;
     font-weight: 700;
+    text-align: left;
 }
+
 
 .includes ul {
     list-style: none;
@@ -696,8 +703,9 @@ body {
     padding: 10px 0;
     border-bottom: 1px solid var(--light);
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--light);
+    text-align: left;
 }
 
 .guarantee {
@@ -728,6 +736,8 @@ body {
     text-align: center;
     color: var(--gray-dark);
     font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
 }
 
 .investment-cta {
@@ -973,7 +983,11 @@ body {
     }
     
     .credential-content h4 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+    }
+
+    .credential-content p {
+        font-size: 1rem;
     }
 
     .oferta-dia {
