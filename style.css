@@ -149,6 +149,10 @@ body {
     transition: all 0.3s ease;    
 }
 
+.modules-grid .module-card:nth-child(7) .module-image img{
+    transform: scaleX(-1) !important;
+} 
+
 .proof-grid .module-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
@@ -476,7 +480,7 @@ body {
 }
 
 .method .cta-button {
-    animation: pulse-dark 2s infinite ease-in-out;
+    animation: simple-neon-pulse 2s infinite;
 }
 
 .method .cta-button:hover {
@@ -1370,6 +1374,17 @@ body {
     font-size: 2.5rem;
     color: var(--light);
     font-weight: 700;
+}
+
+.google-reviews .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-reviews a {
+    margin: 50px 0 0 0;
 }
 
 .reviews-grid {
