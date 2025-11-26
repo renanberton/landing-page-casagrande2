@@ -1,0 +1,21 @@
+{
+    "name": "DJ Profissional com Léo Casagrande",
+    "short_name": "DJ Profissional", 
+    "description": "Do Zero a DJ em 30 Dias com Léo Casagrande",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#E99A00",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512", 
+            "type": "image/png"
+        }
+    ]
+}
