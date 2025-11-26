@@ -476,7 +476,7 @@ body {
 }
 
 .method .cta-button {
-    animation: pulse-dark 2s infinite ease-in-out;
+    animation: simple-neon-pulse 2s infinite;
 }
 
 .method .cta-button:hover {
