@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Fecha automaticamente após 6 segundos
             setTimeout(() => {
                 hideNotification(notification);
-            }, 6000);
+            }, 3000);
         }, 300);
     }
 
