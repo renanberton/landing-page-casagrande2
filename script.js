@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
         'notification-1',
         'notification-2', 
         'notification-3',
-        'notification-4'
+        'notification-4',
+        'notification-5',
+        'notification-6'
     ];
     
     let currentNotificationIndex = 0;
