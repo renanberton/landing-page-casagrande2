@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
         'notification-1',
         'notification-2', 
         'notification-3',
-        'notification-4'
+        'notification-4',
+        'notification-5',
+        'notification-6'
     ];
     
     let currentNotificationIndex = 0;
@@ -31,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Fecha automaticamente após 6 segundos
             setTimeout(() => {
                 hideNotification(notification);
-            }, 6000);
+            }, 3000);
         }, 300);
     }
 
